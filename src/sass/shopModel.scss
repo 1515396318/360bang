@@ -1,0 +1,65 @@
+$marginSpan:8px;
+$wh:970px;
+header{
+  width: 100%;
+  height:34px;
+  border-bottom: 1px solid #ccc;
+  background: #fafafa;
+  .header{
+    width: $wh;
+    height:36px;
+    line-height: 36px;
+    margin: auto;
+    position: relative;
+    font-size: 12px;
+    a{
+      color: #666;
+    }
+    .headerLeft{
+      float: left;
+      .city{
+        color: #0e804d;
+        font-size: 13px;
+      }
+      span{
+        margin-right: $marginSpan;
+      }
+    }
+    .headerRight{
+      float: right;
+      span{
+        margin-left: $marginSpan;
+      }
+      .red{
+        color: red;
+      }
+    }
+  }
+}
+.seek{
+  width: 100%;
+  height:100px;
+  border-bottom: 3px solid green;
+  .seekBox{
+    width: $wh;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    .serachBox{
+      margin-top: 15px;
+      margin-left: 20px;
+      .serach_1{
+        span{
+          display: inline-block;
+          height:18px;
+          border: 1px solid ;
+          margin-right: 2px;
+        }
+      }
+      .serach_2{
+
+      }
+    }
+  }
+}

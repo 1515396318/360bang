@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>360同城帮</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/index.css"/>
     <script type="text/javascript" src="js/lib/jquery-3.1.1.min.js"></script>
@@ -12,9 +12,9 @@
     <header>
         <div class="headerLeft">
             <span class="city">北京</span>
-            <span><a href="#">[切换城市]</a></span>
+            <span class="headerLeftBtn"><a href="#">[切换城市]</a></span>
             <span>|</span>
-            <span><a href="#">同城帮城市</a></span>
+            <span><a href="#">同城帮首页</a></span>
         </div>
         <div class="headerRight">
             <span><a href="#">登录</a></span>
@@ -25,11 +25,22 @@
             <span>|</span>
             <span><a href="#">在线客服</a>（ 9:00-21:00 ）</span>
             <span>|</span>
-            <span>客服服务</span>
+            <span>客服服务<span class="caret"></span></span>
             <span>|</span>
             <span><a href="#">论坛</a></span>
             <span>|</span>
             <span><a class="red" href="#">投诉建议</a></span>
+        </div>
+        <div class="headerHidden">
+            <span class="hiddenCity">城市列表</span>
+            <button>关闭</button>
+            <div>
+                <p class="key"><span>热门</span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span></p>
+                <p><span class="two"><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span></p>
+                <p class="key"><span>拼音</span><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>a</span><span>x</span><span>y</span><span>z</span></p>
+                <p><span class="two"><a href="#">大连</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span></p>
+                <p><span class="two"><a href="#">大理</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span><span><a href="#">北京</a></span></p>
+            </div>
         </div>
     </header>
     <nav>
@@ -37,7 +48,7 @@
             <a href="index.html"><img src="images/35.png"/></a>
         </div>
         <div class="navRight">
-            <span><a href="#">优品</a></span>
+            <span><a href="#">二手优品</a><img src="images/34.png"/></span>
             <span><a href="#">手机回收</a></span>
             <span><a href="#">手机维修</a></span>
             <span><a href="#">电脑维修</a></span>
@@ -88,29 +99,318 @@
         <!--</div>-->
     </div>
     </div>
-    <section>
+    <section class="business">
         <div>
-            <h3>手机换屏</h3>
+            <h4>手机换屏</h4>
             <p>仅需98元起</p>
             <img src="images/10.jpg"/>
         </div>
         <div>
-            <h3>手机换屏</h3>
+            <h4>手机换屏</h4>
             <p>仅需98元起</p>
             <img src="images/10.jpg"/>
         </div>
         <div>
-            <h3>手机换屏</h3>
+            <h4>手机换屏</h4>
             <p>仅需98元起</p>
             <img src="images/10.jpg"/>
         </div>
         <div>
-            <h3>手机换屏</h3>
+            <h4>手机换屏</h4>
             <p>仅需98元起</p>
             <img src="images/14.jpg"/>
         </div>
     </section>
+    <section class="product">
+        <h3>热门手机回收<span class="productRight"><a href="#">查看更多</a><img src="images/1_03.png"/></span></h3>
+        <div>
+            <span>
+                <img src="images/4_03.png"/>
+            </span>
+            <span class="min">
+                <img src="images/16.jpg"/>
+                <p>苹果iphone 6</p>
+            </span>
+            <span class="min">
+                <img src="images/16.jpg"/>
+                <p>苹果iphone 6</p>
+            </span>
+            <span class="min">
+                <img src="images/16.jpg"/>
+                <p>苹果iphone 6</p>
+            </span>
+            <span class="min">
+                <img src="images/16.jpg"/>
+                <p>苹果iphone 6</p>
+            </span>
+            <span class="min">
+                <img src="images/16.jpg"/>
+                <p>苹果iphone 6</p>
+            </span>
+        </div>
+        <h3>热门手机回收<span class="productRight"><a href="#">查看更多</a><img src="images/1_03.png"/></span></h3>
+        <div>
+            <span>
+                <img src="images/4_03.png"/>
+            </span>
+            <span class="min">
+                <img src="images/16.jpg"/>
+                <p>苹果iphone 6</p>
+            </span>
+            <span class="min">
+                <img src="images/16.jpg"/>
+                <p>苹果iphone 6</p>
+            </span>
+            <span class="min">
+                <img src="images/16.jpg"/>
+                <p>苹果iphone 6</p>
+            </span>
+            <span class="min">
+                <img src="images/16.jpg"/>
+                <p>苹果iphone 6</p>
+            </span>
+            <span class="min">
+                <img src="images/16.jpg"/>
+                <p>苹果iphone 6</p>
+            </span>
+        </div>
+        <h3>到店维修</h3>
+    </section>
+    <section class="shops">
+        <div class="search">
+            <span class="cityBtn">北京<span class="caret"></span></span>
+            <span class="countyBtn">周围城市<span class="caret"></span></span>
+            <span class="searchBox"><input type="text" placeholder="输入您的位置查找附近的商家"></span>
+            <span class="searchBtn">搜索</span>
+        </div>
+        <div class="btnSet">
+            <span>默认排序</span>
+            <span>默认排序</span>
+            <span>默认排序</span>
+            <span><input type="checkbox">先行赔付</span>
+            <span class="atlas">地图模式</span>
+        </div>
+        <div class="shopNews">
+            <div class="store">
+                <img src="images/24.jpg"/>
+                <div class="news">
+                    <p><a href="#">顺通电脑维修</a><span class="shopGrade">店铺等级：</span></p>
+                    <p>主营：电脑维修，电脑周边配件，系统维护，网络安装，打印机...</p>
+                    <p>地址：北京通州区瑞都国际南区12号楼底商12-2</p>
+                </div>
+                <div class="insure">
+                    <p class="compensate">先行赔付</p>
+                    <p class="approve">同城帮认证</p>
+                    <p class="moods">人气：27390次浏览</p>
+                </div>
+                <div class="btn">进入店铺</div>
+            </div>
+            <div class="store">
+                <img src="images/24.jpg"/>
+                <div class="news">
+                    <p><a href="#">顺通电脑维修</a><span class="shopGrade">店铺等级：</span></p>
+                    <p>主营：电脑维修，电脑周边配件，系统维护，网络安装，打印机...</p>
+                    <p>地址：北京通州区瑞都国际南区12号楼底商12-2</p>
+                </div>
+                <div class="insure">
+                    <p class="compensate">先行赔付</p>
+                    <p class="approve">同城帮认证</p>
+                    <p class="moods">人气：27390次浏览</p>
+                </div>
+                <div class="btn">进入店铺</div>
+            </div>
+            <div class="store">
+                <img src="images/24.jpg"/>
+                <div class="news">
+                    <p><a href="#">顺通电脑维修</a><span class="shopGrade">店铺等级：</span></p>
+                    <p>主营：电脑维修，电脑周边配件，系统维护，网络安装，打印机...</p>
+                    <p>地址：北京通州区瑞都国际南区12号楼底商12-2</p>
+                </div>
+                <div class="insure">
+                    <p class="compensate">先行赔付</p>
+                    <p class="approve">同城帮认证</p>
+                    <p class="moods">人气：27390次浏览</p>
+                </div>
+                <div class="btn">进入店铺</div>
+            </div>
+            <div class="store">
+                <img src="images/24.jpg"/>
+                <div class="news">
+                    <p><a href="#">顺通电脑维修</a><span class="shopGrade">店铺等级：</span></p>
+                    <p>主营：电脑维修，电脑周边配件，系统维护，网络安装，打印机...</p>
+                    <p>地址：北京通州区瑞都国际南区12号楼底商12-2</p>
+                </div>
+                <div class="insure">
+                    <p class="compensate">先行赔付</p>
+                    <p class="approve">同城帮认证</p>
+                    <p class="moods">人气：27390次浏览</p>
+                </div>
+                <div class="btn">进入店铺</div>
+            </div>
+            <div class="store">
+                <img src="images/24.jpg"/>
+                <div class="news">
+                    <p><a href="#">顺通电脑维修</a><span class="shopGrade">店铺等级：</span></p>
+                    <p>主营：电脑维修，电脑周边配件，系统维护，网络安装，打印机...</p>
+                    <p>地址：北京通州区瑞都国际南区12号楼底商12-2</p>
+                </div>
+                <div class="insure">
+                    <p class="compensate">先行赔付</p>
+                    <p class="approve">同城帮认证</p>
+                    <p class="moods">人气：27390次浏览</p>
+                </div>
+                <div class="btn">进入店铺</div>
+            </div>
+            <ul class="pagination">
+                <li><a href="#">&laquo;上一页</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#">10</a></li>
+                <li><a href="#">下一页&raquo;</a></li>
+            </ul>
+        </div>
+        <div class="goodList">
+            <p class="listP">商家好评榜</p>
+            <div class="box">
+                <span>1</span>
+                <img src="images/3.jpg"/>
+                <div>
+                    <p><a href="#">顺通电脑维修</a></p>
+                    <p>111631条评论</p>
+                </div>
+            </div>
+            <div class="box">
+                <span>2</span>
+                <img src="images/3.jpg"/>
+                <div>
+                    <p><a href="#">顺通电脑维修</a></p>
+                    <p>111631条评论</p>
+                </div>
+            </div>
+            <div class="box">
+                <span>3</span>
+                <img src="images/3.jpg"/>
+                <div>
+                    <p><a href="#">顺通电脑维修</a></p>
+                    <p>111631条评论</p>
+                </div>
+            </div>
+            <div class="box">
+                <span>4</span>
+                <img src="images/3.jpg"/>
+                <div>
+                    <p><a href="#">顺通电脑维修</a></p>
+                    <p>111631条评论</p>
+                </div>
+            </div>
+            <div class="box">
+                <span>5</span>
+                <img src="images/3.jpg"/>
+                <div>
+                    <p><a href="#">顺通电脑维修</a></p>
+                    <p>111631条评论</p>
+                </div>
+            </div>
+            <div class="box">
+                <span>6</span>
+                <img src="images/3.jpg"/>
+                <div>
+                    <p><a href="#">顺通电脑维修</a></p>
+                    <p>111631条评论</p>
+                </div>
+            </div>
+            <div class="box">
+                <span>7</span>
+                <img src="images/3.jpg"/>
+                <div>
+                    <p><a href="#">顺通电脑维修</a></p>
+                    <p>111631条评论</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="logo1">
+        <div class="logoBox">
+            <div>
+                <img src="images/38.png"/>
+            </div>
+            <div class="fontLink">
+                <h4>购物指南</h4>
+                <p><a href="#">购物流程</a></p>
+                <p><a href="#">购物流程</a></p>
+                <p><a href="#">购物流程</a></p>
+            </div>
+        </div>
+        <div class="logoBox">
+            <div>
+                <img src="images/38.png"/>
+            </div>
+            <div class="fontLink">
+                <h4>购物指南</h4>
+                <p><a href="#">购物流程</a></p>
+                <p><a href="#">购物流程</a></p>
+                <p><a href="#">购物流程</a></p>
+            </div>
+        </div>
+        <div class="logoBox">
+            <div>
+                <img src="images/38.png"/>
+            </div>
+            <div class="fontLink">
+                <h4>购物指南</h4>
+                <p><a href="#">购物流程</a></p>
+                <p><a href="#">购物流程</a></p>
+                <p><a href="#">购物流程</a></p>
+            </div>
+        </div>
+        <div class="logoBox">
+            <div>
+                <img src="images/38.png"/>
+            </div>
+            <div class="fontLink">
+                <h4>购物指南</h4>
+                <p><a href="#">购物流程</a></p>
+                <p><a href="#">购物流程</a></p>
+                <p><a href="#">购物流程</a></p>
+            </div>
+        </div>
+        <div class="logoBox">
+            <div>
+                <img src="images/38.png"/>
+            </div>
+            <div class="fontLink">
+                <h4>购物指南</h4>
+                <p><a class="toJoin" href="#">购物流程</a></p>
+                <p><a href="#">购物流程</a></p>
+                <p><a href="#">购物流程</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>客服电话：4000-399-360 / 010-53767360 <span><a href="">投诉建议</a></span><span><a href="#">网站地图</a></span></p>
+        <p>Copyright © 2005-2017  360.CN  All Rights Reserved  360安全中心</p>
+        <p><span><a href="#">京ICP备08010314号-19</a></span>京公网安备110000000006号</p>
+    </footer>
 </body>
 <script>
+
+    $(function () {
+        //切换城市
+        $(".headerLeftBtn").on("click",function () {
+            $(".headerHidden").css("display","block");
+        });
+        $(".headerHidden button").on("click",function () {
+            $(".headerHidden").css("display","none");
+        });
+        //滚动事件
+
+    });
 </script>
 </html>
