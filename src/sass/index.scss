@@ -287,15 +287,20 @@ nav{
           color: #999;
           margin-right: 5px;
         }
-        p{
+        .p1,.p2{
+          margin-top: 12px;
           text-overflow: ellipsis;
           white-space: nowrap;
+          overflow: hidden;
         }
       }
       .insure{
         display: flex;
         flex-direction: column;
         margin-left: 50px;
+        .approve,.moods{
+          margin-top: 12px;
+        }
       }
       .btn{
         width: 130px;
@@ -404,6 +409,8 @@ nav{
     }
   }
 }
+
+
 footer{
   text-align: center;
   background: #fdfdfd;
