@@ -7,7 +7,6 @@ define(["mytools","app/constans","app/shopDom"],function (XHR,u,dom) {
     var url=u.host+u.path+"/1";
     xhr.open("get",url);
     xhr.send(null);
-    console.log(dom);
     xhr.onreadystatechange=function () {
         if(xhr.readyState==4){
             if(xhr.status>=200&&xhr.status<300||xhr.status==304){
@@ -16,5 +15,4 @@ define(["mytools","app/constans","app/shopDom"],function (XHR,u,dom) {
             }
         }
     };
-    return xhr.responseText;
 });

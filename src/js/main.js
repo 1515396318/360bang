@@ -12,6 +12,6 @@ requirejs.config({
    }
 });
 
-define(["mytools","app/constans","app/shoplist","app/shopDom"],function (mytools,constans,shoplist) {
+define(["mytools","app/constans","app/shoplist","app/shopDom","app/jsonp","app/picMouse"],function () {
 
 });

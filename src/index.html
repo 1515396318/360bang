@@ -97,8 +97,42 @@
                 <span>修手机/Pad</span>
                 <span>></span>
             </div>
-        <!--</div>-->
-    </div>
+        </div>
+        <div class="hiddDiv">
+            <div class="hidden1">
+                <p><span class="z">1</span><span></span><span></span><span></span><span></span></p>
+                <p><span class="z">2</span><span></span><span></span><span></span><span></span></p>
+                <p><span class="z">3</span><span></span><span></span><span></span><span></span></p>
+                <p><span class="z">4</span><span></span><span></span><span></span><span></span></p>
+                <p><span class="z">5</span><span></span><span></span><span></span><span></span></p>
+                <p><span class="z">6</span><span></span><span></span><span></span><span></span></p>
+                <p><span class="z">7</span><span></span><span></span><span></span><span></span></p>
+                <p><span class="z">8</span><span></span><span></span><span></span><span></span></p>
+                <p><span class="z">9</span><span></span><span></span><span></span><span></span></p>
+            </div>
+            <div class="hidden2">
+                <p>热门问题：<span></span><span></span><span></span><span></span></p>
+                <p><span class="x"></span><span></span></p>
+                <p>其他问题：<span></span><span></span><span></span><span></span></p>
+                <p><span class="x"></span><span></span><span></span><span></span></p>
+                <p><span class="x"></span></p>
+            </div>
+            <div class="hidden3">
+                <p><span>2</span><span>2</span><span>2</span><span>2</span><span>2</span></p>
+                <p><span>2</span><span>2</span><span>2</span><span>2</span><span>2</span></p>
+                <p><span>2</span><span>2</span><span>2</span><span>2</span><span>2</span></p>
+                <p><span>2</span><span>2</span><span>2</span><span>2</span><span>2</span></p>
+                <p><span>2</span><span>2</span><span>2</span><span>2</span><span>2</span></p>
+                <p><span>2</span><span>2</span><span>2</span></p>
+            </div>
+            <div class="hidden4">
+                <p><span>2</span><span>2</span><span>2</span><span>2</span><span>2</span></p>
+                <p><span>2</span><span>2</span><span>2</span><span>2</span><span>2</span></p>
+                <p><span>2</span><span>2</span><span>2</span><span>2</span><span>2</span></p>
+                <p><span>2</span><span>2</span><span>2</span><span>2</span><span>2</span></p>
+                <p><span>2</span><span>2</span><span>2</span><span>2</span></p>
+            </div>
+        </div>
     </div>
     <section class="business">
         <div>
@@ -403,18 +437,12 @@
 <script>
     $(function () {
         //切换城市
-        $(".headerLeftBtn").on("click",function () {
-            $(".headerHidden").css("display","block");
+        $(".headerLeftBtn").on("click", function () {
+            $(".headerHidden").css("display", "block");
         });
-        $(".headerHidden button").on("click",function () {
-            $(".headerHidden").css("display","none");
+        $(".headerHidden button").on("click", function () {
+            $(".headerHidden").css("display", "none");
         });
-        //滚动事件
-
-        //调取数据
-        $.get("http://localhost:3000/at/shop/1",function (text) {
-
-        })
-    });
+    })
 </script>
 </html>

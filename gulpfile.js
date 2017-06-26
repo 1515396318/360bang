@@ -58,8 +58,8 @@ var gulp = require("gulp"),
     //js文件转移
     gulp.task("script",function(){
         return gulp.src("src/js/**/*.js")
-            // .pipe(change("dist/js"))
-            // .pipe(uglify())
+            .pipe(change("dist/js"))
+            .pipe(uglify())
             // .pipe(rename({suffix:".min"}))
             .pipe(gulp.dest("dist/js"));
     });

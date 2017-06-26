@@ -11,7 +11,6 @@ define(function () {
         var p1=document.querySelectorAll(".p1");
         var p2=document.querySelectorAll(".p2");
         var moods=document.querySelectorAll(".moods");
-        console.log(p1);
         for(var i=0;i<imgs.length;i++){
             imgs[i].src=obj.shop_data[i].shop_ico;
             name[i].innerHTML=obj.shop_data[i].shop_name;
